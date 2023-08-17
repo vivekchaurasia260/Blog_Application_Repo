@@ -1,0 +1,25 @@
+package com.project.demo.blog.controllers;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.project.demo.blog.payloads.CategoryDto;
+
+@RestController
+@RequestMapping("/api/categories")
+public class CategoryController {
+	
+	// create
+	@PostMapping("/")
+	public ResponseEntity<CategoryDto> createCategory() {
+		
+	}
+	
+	// update
+	
+	//delete
+	
+	// Retrieve
+}

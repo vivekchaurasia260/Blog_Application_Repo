@@ -1,0 +1,5 @@
+package com.project.demo.blog.controllers;
+
+public class PostController {
+
+}

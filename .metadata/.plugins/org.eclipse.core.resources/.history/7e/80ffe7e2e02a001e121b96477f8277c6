@@ -1,0 +1,20 @@
+package com.project.demo.blog.controllers;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.project.demo.blog.payloads.PostDto;
+
+@RestController
+@RequestMapping("/api/")
+public class PostController {
+
+	private 
+	@RequestMapping("/user/{userId}/category/{categoryId}")
+	public ResponseEntity<PostDto> createPost(@RequestBody PostDto postDto) {
+		
+		
+	}
+}

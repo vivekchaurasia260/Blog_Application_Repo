@@ -1,0 +1,5 @@
+package com.project.demo.blog.entities;
+
+public class Post {
+
+}

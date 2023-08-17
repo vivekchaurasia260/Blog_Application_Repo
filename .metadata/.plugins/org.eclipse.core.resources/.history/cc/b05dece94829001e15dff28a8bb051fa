@@ -1,0 +1,21 @@
+package com.project.demo.blog.entities;
+
+import java.util.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="post")
+public class Post {
+
+	private int postId;
+	
+	private String title;
+	
+	private String content;
+	
+	private String imageName;
+	
+	private Date addDate;
+}

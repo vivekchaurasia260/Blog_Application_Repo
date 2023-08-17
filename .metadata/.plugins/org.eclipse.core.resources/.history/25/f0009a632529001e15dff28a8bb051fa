@@ -1,0 +1,5 @@
+package com.project.demo.blog.services;
+
+public interface CategoryService {
+
+}

@@ -1,0 +1,5 @@
+package com.project.demo.blog.payloads;
+
+public class ApiResponse {
+
+}

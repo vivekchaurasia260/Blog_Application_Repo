@@ -1,0 +1,23 @@
+package com.project.demo.blog;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.project.demo.blog.repositories.UserRepository;
+
+@SpringBootTest
+class BlogAppApisApplicationTests {
+
+	
+	private UserRepository userRepository;
+	
+	@Test
+	void contextLoads() {
+	}
+
+	@Test
+	public void repoTest()
+	{
+		
+	}
+}
